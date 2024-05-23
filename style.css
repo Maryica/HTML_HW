@@ -101,3 +101,133 @@
   display: flex;
   justify-content: space-between;
 }
+
+.choose {
+  margin-top: 100px;
+}
+
+.box_up {
+  display: flex;
+  gap: 30px;
+  padding: 0 30px;
+}
+
+.card_up {
+  padding: 40px 0px 25px 30px;
+}
+
+.card_up:hover {
+  box-shadow: 15px 25px 56px 6px #0000000f;
+}
+
+.card_up_title {
+  margin-top: 25px;
+  margin-bottom: 17px;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.card_up_text {
+  margin-bottom: 25px;
+  color: #666666;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.card_link {
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 11px;
+  margin-bottom: 100px;
+}
+
+.choose_center {
+  display: flex;
+  margin-top: 92px;
+  align-items: center;
+}
+
+.center_text {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
+.choose_title {
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 19px;
+}
+
+.choose_text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #666666;
+  width: 60%;
+  text-align: center;
+}
+
+.box_bottom {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+
+.card_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+}
+
+.card_bottom:hover {
+  box-shadow: 15px 25px 60px -5px #0000001a;
+}
+
+.card_bottom_title {
+  color: #000000;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+.card_bottom_text {
+  text-align: center;
+  margin-bottom: 29px;
+  color: #aaaaaa;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 22px;
+  margin-bottom: 39px;
+  padding: 0 30px;
+}
+
+.card_bottom_link {
+  padding: 15px 45px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: #f25822;
+  box-shadow: 4px 4px 8px 0px #f2582233;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
